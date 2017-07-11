@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import logo from './icons/OW-icon_logo.svg';
-import './App.css';
+import {BrowserRouter, withRouter} from 'react-router-dom';
 
-class App extends Component {
+import logo from './icons/OW-icon_logo.svg';
+import './welcome.css';
+
+class Welcome extends Component {
   constructor(props) {
     super(props);
     this.state = {uname : null};
@@ -18,7 +19,8 @@ class App extends Component {
       var uname = this.state.uname;
       var regex = /\w+#\d+/i;
       if (regex.test(uname)) {
-        alert("Verified: " + uname);
+        //alert("Verified: " + uname);
+        this.props.history.push('/Profile?'+uname)
         // TODO: Switch to profile component with uname
         // TODO: Add uname to list of recent profiles
       } else {
@@ -44,4 +46,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(Welcome);
