@@ -19,7 +19,8 @@ class App extends Component {
       var regex = /\w+#\d+/i;
       if (regex.test(uname)) {
         alert("Verified: " + uname);
-        ReactDOM.render(<App />, document.getElementById('root'));
+        // TODO: Switch to profile component with uname
+        // TODO: Add uname to list of recent profiles
       } else {
         alert(uname + "is an invalid BattleTag");
       }
