@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {withRouter} from 'react-router-dom';
 import logo from './icons/OW-icon_logo.svg';
-import banner from './banners/mcree.jpg'
+import banner from './banners/ana.jpg'
 import './profile.css';
 
 class Profile extends Component {
