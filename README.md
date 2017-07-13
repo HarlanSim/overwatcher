@@ -1,4 +1,4 @@
-## Overwatcher ![Alt text](/src/icons/OW-icon_logo,svg?raw=true)
+## Overwatcher ![Alt text](/src/icons/OW-icon_logo.svg?raw=true)
 
 Uses unofficial blizzard API at https://owapi.net for JSON data for a given BattleTag
 
