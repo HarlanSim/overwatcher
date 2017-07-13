@@ -6,6 +6,34 @@
   height: 100px;
   width: 100px;
 }
+.medal img{
+    top: 306px;
+    left: 557px;
+    width: 100px;
+    position: absolute;
+}
+.medal bronze img{
+    background: url(https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/89/Badge_1_Bronze.png/64px-Badge_1_Bronze.png?version=59c05f4579e48f11aa443d3d88a8da85) left top no-repeat;
+}
+.medal silver img{
+    background: url(https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/b/bb/Badge_2_Silver.png/64px-Badge_2_Silver.png?version=22bae1d66c495d6e67ad61a3be33948a) left top no-repeat;
+}
+.medal gold img{
+    background: url(https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/b/b8/Badge_3_Gold.png/64px-Badge_3_Gold.png?version=bdce6dcd6bfbab7e08e93276597e354a) left top no-repeat;
+}
+.medal platinum img{
+    background: url(https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/f/f8/Badge_4_Platinum.png/64px-Badge_4_Platinum.png?version=136e1c721edaf71439e56e152cdafc44) left top no-repeat;
+}
+.medal diamond img{
+    background: url(https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/2/2f/Badge_5_Diamond.png/64px-Badge_5_Diamond.png?version=fce449511591438a44ebb4c94face110) left top no-repeat;
+}
+.medal master img{
+    background: url(https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/f/f0/Badge_6_Master.png/64px-Badge_6_Master.png?version=686e929461eb28994951c34916175512) left top no-repeat;
+}
+.medal grandmaster img{
+    background: url(https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/87/Badge_7_Grandmaster.png/64px-Badge_7_Grandmaster.png?version=74d596c5ba53146a493939c01fcf128d) left top no-repeat;
+}
+
 
 .Profile-header {
   background-color: rgb(33, 34, 52);
@@ -118,7 +146,7 @@
 
 .Uname {
     position: absolute;
-    top: 146px;
+    top: 137px;
     font-size: 91px;
     font-style: italic;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;

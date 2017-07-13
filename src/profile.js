@@ -50,6 +50,9 @@ class Profile extends Component {
         <div className="Profile-header">
           <img src={require('./banners/' + hero + '.jpg')} className="App-banner" alt="banner" />
           <div className = {"Uname " + hero}>{this.state.uname}</div>
+          <div className = {"medal " + this.state.compstats.tier}>
+            <img/>
+          </div>
         </div>
         <div className="Profile-body">
           <div className="Stats">
