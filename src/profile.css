@@ -33,13 +33,22 @@
 .medal grandmaster img{
     background: url(https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/87/Badge_7_Grandmaster.png/64px-Badge_7_Grandmaster.png?version=74d596c5ba53146a493939c01fcf128d) left top no-repeat;
 }
-
-
 .Profile-header {
   background-color: rgb(33, 34, 52);
   color: white;
   height: 400px;
 }
+.Compare-header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 50%;
+}
+.Compare-banner {
+    width: 100%;
+}
+
 .ana{
    color: #9bd9f0;
    width: 90%;
@@ -151,7 +160,17 @@
     font-style: italic;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
+.HalfWidth {
+  width: 50%;
+}
 
+.SmUname {
+    position: absolute;
+    top: 88px;
+    font-size: 70px;
+    font-style: italic;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

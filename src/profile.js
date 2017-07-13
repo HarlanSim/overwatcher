@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {withRouter} from 'react-router-dom';
-import logo from './icons/OW-icon_logo.svg';
 import './profile.css';
 
 class Profile extends Component {
