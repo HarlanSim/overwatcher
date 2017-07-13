@@ -11,18 +11,106 @@
   background-color: rgb(33, 34, 52);
   color: white;
   height: 400px;
-  }
- 
- .Mcree {
-       background-color: rgb(33, 34, 52);
- } 
+}
+.ana{
+   color: #9bd9f0;
+   width: 90%;
+}
+.bastion{
+   color: #9fec3a;
+   width: 89%;
+}
+.dva{
+   color: #fea5d1;
+   width: 92%;
+}
+.genji{
+   color: #ffbb3c;
+   width: 81%;
+}
+.hanzo{
+   color: #febc42;
+   width: 91%;
+}
+.junkrat{
+   color: #ffbd3b;
+   width: 94%;
+}
+.lucio{
+   color: #ffbb3c;
+   width: 96%;
+}
+.mcree{
+   color: #eb5739;
+   width: 92%; 
+}
+.mei{
+   color: #ffbb3c;
+   width: 89%;
+}
+.mercy{
+   color: #fef373;
+   width: 80%;
+}
+.orisa{
+   color: #e2df44;
+   width: 97%;
+}
+.pharah{
+   color: #92d3ef;
+   width: 89%;
+}
+.reaper {
+   color: #f1d4ce;
+   width: 89%;
+}
+.reinhardt{
+   color: #cdabf8;
+   width: 90%; 
+}
+.roadhog{
+    color: #feb244;
+    width: 90%;
+}
+.soldier{
+    color: #89d7ed;
+    width: 85%; 
+}
+.sombra{
+    color: #cc1eb5;
+    width: 91%;
+}
+.symmetra{
+    color: #34aff2;
+    width: 94%;
+}
+.tracer{
+    color: #ffb947;
+    width: 94%;
+}
+.widowmaker{
+    color: #fe1f4b;
+    width: 91%; 
+}
+.winston{
+    color: #b2ebcb;
+    width: 93%; 
+}
+.zarya{
+    color: #34aff2;
+    width: 95%;
+}
+.zenyatta{
+    color: #ffb838;
+    width: 86%; 
+}
 
 .Stats {
       background-color: white;
 } 
 
 
-.App-body {  
+.Profile-body {  
   font-size: large;
   padding: 20px;
   background-color: rgb(33, 34, 52);
@@ -31,7 +119,6 @@
 .Uname {
     position: absolute;
     top: 146px;
-    width: 92%;
     font-size: 91px;
     font-style: italic;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
