@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+.overwatchLogo {
   height: 100px;
   width: 100px;
 }
@@ -18,7 +18,7 @@
   padding: 20px;
 }
 
-@keyframes App-logo-spin {
+@keyframes overwatchLogo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }

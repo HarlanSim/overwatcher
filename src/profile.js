@@ -36,11 +36,6 @@ class Profile extends Component {
                 this.state.imgs =  
                         {avatar : compstats.avatar, rank_image: compstats.rank_image};
                 };
-            // Set Hero Banner
-            // var min = Math.ceil(0);
-            // var max = Math.floor(22);
-            // var index = Math.floor(Math.random() * (max - min + 1)) + min;
-            // this.state.bannerImg = require('./banners/' + heroes[index] + '.jpg');
             }
         }
     render() {

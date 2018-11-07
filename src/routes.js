@@ -8,6 +8,6 @@ var Route = Router.Route;
 
 var routes = (  
     <Route name="overwatcher" path="/" handler={require('./index.js')}>
-           <Welcome/>} />
+        <Welcome/>} />
     </Route>
 )
